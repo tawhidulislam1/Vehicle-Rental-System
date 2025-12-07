@@ -4,7 +4,7 @@
 
 <br />
 
-**GitHub Repository:**[https://github.com/tawhidulislam1/Vehicle-Rental-System](https://github.com/tawhidulislam1/Vehicle-Rental-System)
+**GitHub Repository:** [https://github.com/tawhidulislam1/Vehicle-Rental-System](https://github.com/tawhidulislam1/Vehicle-Rental-System)
 
 ---
 
@@ -16,11 +16,11 @@ The Vehicle Rental System allows users to browse, rent, and manage vehicles effi
 
 ## 🚀 Features
 
-- User can order/rent vehicles  
-- User can post their own vehicles  
-- User can manage and view bookings  
-- Secure authentication system  
-- Responsive and user-friendly interface  
+* User can order/rent vehicles
+* User can post their own vehicles
+* User can manage and view bookings
+* Secure authentication system
+* Responsive and user-friendly interface
 
 ---
 
@@ -28,25 +28,26 @@ The Vehicle Rental System allows users to browse, rent, and manage vehicles effi
 
 ### **Backend:**
 
-- Node.js  
-- Express.js  
-- TypeScript  
-- PostgreSQL  
-- JWT Authentication  
-- bcryptjs  
-- dotenv  
+* Node.js
+* Express.js
+* TypeScript
+* PostgreSQL
+* JWT Authentication
+* bcryptjs
+* dotenv
 
 ### **Development Tools:**
 
-- tsx  
-- @types/express  
-- @types/jsonwebtoken  
-- @types/pg  
+* tsx
+* @types/express
+* @types/jsonwebtoken
+* @types/pg
 
 ---
 
 ## 📂 Project Structure
 
+```
 /src
 /controllers
 /routes
@@ -55,6 +56,7 @@ The Vehicle Rental System allows users to browse, rent, and manage vehicles effi
 /config
 /utils
 server.ts
+```
 
 ---
 
@@ -65,39 +67,48 @@ server.ts
 ```bash
 git clone https://github.com/your-username/Vehicle-Rental-System.git
 cd Vehicle-Rental-System
+```
 
-2️⃣ Install dependencies
+### 2️⃣ Install dependencies
+
+```bash
 npm install
+```
 
-3️⃣ Create .env file
+### 3️⃣ Create `.env` file
 
-Start development server
+Add required environment variables.
 
-📡 API Endpoints (Example)
-Auth
+### 4️⃣ Start development server
 
-POST /api/auth/register
+```bash
+npm run dev
+```
 
-POST /api/auth/login
+---
 
-Vehicles
+## 📡 API Endpoints (Example)
 
-POST /api/vehicles
+### **Auth**
 
-GET /api/vehicles
+* POST `/api/auth/register`
+* POST `/api/auth/login`
 
-PUT /api/vehicles/:id
+### **Vehicles**
 
-Bookings
+* POST `/api/vehicles`
+* GET `/api/vehicles`
+* PUT `/api/vehicles/:id`
 
-POST /api/bookings
+### **Bookings**
 
-GET /api/bookings/user/:id
+* POST `/api/bookings`
+* GET `/api/bookings/user/:id`
 
-▶️ Usage
+---
 
-Register/Login
+## ▶️ Usage
 
-Add/Rent vehicles
-
-View and manage your bookings
+* Register/Login
+* Add/Rent vehicles
+* View and manage your bookings
