@@ -1,7 +1,10 @@
 # 🚗 Project Name: Vehicle Rental System
 
-**Live URL:** [https://your-live-url.com](https://assignment-zeta-rose.vercel.app/)
-**GitHub Repository:**[https://github.com/username/repo-name](https://github.com/tawhidulislam1/Vehicle-Rental-System)
+**Live URL:** [https://assignment-zeta-rose.vercel.app/](https://assignment-zeta-rose.vercel.app/)
+
+<br />
+
+**GitHub Repository:**[https://github.com/tawhidulislam1/Vehicle-Rental-System](https://github.com/tawhidulislam1/Vehicle-Rental-System)
 
 ---
 
