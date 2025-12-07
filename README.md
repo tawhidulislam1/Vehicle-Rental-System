@@ -1,24 +1,100 @@
-# Vehicle Rental System
+# 🚗 Project Name: Vehicle Rental System
 
-**Live URL:** [https://assignment-zeta-rose.vercel.app/](https://assignment-zeta-rose.vercel.app/)
+**Live URL:** [https://your-live-url.com](https://assignment-zeta-rose.vercel.app/)
+**GitHub Repository:**[https://github.com/username/repo-name](https://github.com/tawhidulislam1/Vehicle-Rental-System)
 
 ---
 
-## 🛠 Technology Stack
+## 📌 About the Project
+
+The Vehicle Rental System allows users to browse, rent, and manage vehicles efficiently with a secure backend and real-time updates.
+
+---
+
+## 🚀 Features
+
+- User can order/rent vehicles  
+- User can post their own vehicles  
+- User can manage and view bookings  
+- Secure authentication system  
+- Responsive and user-friendly interface  
+
+---
+
+## 🛠️ Technology Stack
 
 ### **Backend:**
 
-* Node.js
-* Express.js (v5)
-* TypeScript (v5.9)
-* PostgreSQL (pg v8)
-* JWT Authentication
-* bcryptjs (password hashing)
-* dotenv (environment variables)
+- Node.js  
+- Express.js  
+- TypeScript  
+- PostgreSQL  
+- JWT Authentication  
+- bcryptjs  
+- dotenv  
 
 ### **Development Tools:**
 
-* tsx (TypeScript runtime)
-* @types/express
-* @types/jsonwebtoken
-* @types/pg
+- tsx  
+- @types/express  
+- @types/jsonwebtoken  
+- @types/pg  
+
+---
+
+## 📂 Project Structure
+
+/src
+/controllers
+/routes
+/middlewares
+/services
+/config
+/utils
+server.ts
+
+---
+
+## ⚙️ Installation & Setup
+
+### 1️⃣ Clone the repository
+
+```bash
+git clone https://github.com/your-username/Vehicle-Rental-System.git
+cd Vehicle-Rental-System
+
+2️⃣ Install dependencies
+npm install
+
+3️⃣ Create .env file
+
+Start development server
+
+📡 API Endpoints (Example)
+Auth
+
+POST /api/auth/register
+
+POST /api/auth/login
+
+Vehicles
+
+POST /api/vehicles
+
+GET /api/vehicles
+
+PUT /api/vehicles/:id
+
+Bookings
+
+POST /api/bookings
+
+GET /api/bookings/user/:id
+
+▶️ Usage
+
+Register/Login
+
+Add/Rent vehicles
+
+View and manage your bookings
