@@ -61,6 +61,32 @@ const createBookings = async (payload: BookingPayload) => {
 
 const getBookings = async (id: string, role: string) => {
   try {
+    const today = new Date().toISOString().split("T")[0];
+
+    await pool.query(
+      `
+      UPDATE Bookings
+      SET status = 'returned'
+      WHERE rent_end_date < $1
+      AND status NOT IN ('returned', 'cancelled')
+    `,
+      [today]
+    );
+
+    await pool.query(
+      `
+      UPDATE Vehicles v
+      SET availability_status = 'available'
+      WHERE v.id IN (
+        SELECT b.vehicle_id 
+        FROM Bookings b
+        WHERE b.rent_end_date < $1
+        AND b.status = 'returned'
+      )
+    `,
+      [today]
+    );
+
     if (role === "admin") {
       const result = await pool.query(`
       SELECT 
